@@ -11,7 +11,7 @@ cmds = [
 [phases.build]
 cmds = [
     "echo '🔨 Iniciando build de ChromaDB...'",
-    "/opt/venv/bin/python build_chromadb.py",
+    "/opt/venv/bin/python3 build_chromadb.py",
     "echo '✅ ChromaDB build completado'"
 ]
 
