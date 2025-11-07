@@ -1,0 +1,11 @@
+
+PREGUNTA FRECUENTE #2
+
+PREGUNTA:
+¿Cómo se calcula la dosis de un medicamento inyectable?
+
+RESPUESTA:
+La dosis se calcula según el peso vivo del animal y la concentración del producto. Por ejemplo, si la dosis es 1ml/50kg y el animal pesa 300kg, la dosis será: 300kg ÷ 50kg = 6ml. Siempre verificar la ficha técnica del producto.
+
+---
+Fuente: Laboratorio Chinfield - Preguntas Frecuentes

@@ -1,0 +1,19 @@
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.install]
+cmds = [
+    "python3.11 -m venv /opt/venv",
+    "/opt/venv/bin/pip install --upgrade pip",
+    "/opt/venv/bin/pip install -r requirements.txt"
+]
+
+[phases.build]
+cmds = [
+    "echo '🔨 Iniciando build de ChromaDB...'",
+    "/opt/venv/bin/python build_chromadb.py",
+    "echo '✅ ChromaDB build completado'"
+]
+
+[start]
+cmd = "/opt/venv/bin/uvicorn app:app --host 0.0.0.0 --port $PORT"

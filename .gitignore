@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# ChromaDB (se genera en build, no commitear)
+models/chroma_db/*.sqlite3
+models/chroma_db/*.parquet
+models/chroma_db/chroma.sqlite3
+
+# Pero SÍ commitear la estructura
+!models/chroma_db/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Railway
+.railway/

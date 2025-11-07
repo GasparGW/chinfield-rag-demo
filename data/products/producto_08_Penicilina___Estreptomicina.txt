@@ -1,0 +1,22 @@
+
+PRODUCTO: Penicilina + Estreptomicina
+
+CATEGORÍA: Antibióticos
+
+DESCRIPCIÓN:
+Antibiótico de amplio espectro. Combinación penicilina-estreptomicina.
+
+ESPECIES:
+Bovinos, ovinos
+
+DOSIFICACIÓN:
+1 ml por cada 25 kg
+
+VÍA DE ADMINISTRACIÓN:
+Intramuscular
+
+TIEMPO DE RETIRO:
+21 días (carne), 4 días (leche)
+
+---
+Fuente: Laboratorio Chinfield - Vademécum Veterinario
