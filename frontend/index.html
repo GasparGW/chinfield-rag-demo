@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinfield - Asistente Veterinario Inteligente</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/images/logo-chinfield.png" alt="Chinfield" class="logo-img">
+                </div>
+                <nav class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#productos">Productos</a>
+                    <a href="#demo">Demo</a>
+                    <a href="https://chinfield.com/acerca-de-chinfield" target="_blank">Acerca de</a>
+                </nav>
+                <button class="btn-demo" onclick="openChat()">
+                    ✨ DEMO TÉCNICA
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Asistencia Veterinaria<br/>
+                        <span class="highlight">Inteligente 24/7</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Consultas instantáneas sobre productos veterinarios con inteligencia artificial. 
+                        Dosificaciones, indicaciones y recomendaciones técnicas al instante.
+                    </p>
+                    <div class="hero-cta">
+                        <button class="btn-primary" onclick="openChat()">
+                            Iniciar Consulta Ahora →
+                        </button>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <div class="stat-number">71+</div>
+                                <div class="stat-label">Productos indexados</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Disponibilidad</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">&lt;3s</div>
+                                <div class="stat-label">Tiempo de respuesta</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chat Demo Preview -->
+                <div class="hero-demo">
+                    <div class="demo-card">
+                        <div class="demo-header">
+                            <div class="demo-avatar">🐴</div>
+                            <div class="demo-info">
+                                <h3>Asistente Chinfield</h3>
+                                <span class="status">● En línea - Demo</span>
+                            </div>
+                        </div>
+                        
+                        <div class="demo-messages">
+                            <div class="message user">
+                                ¿Cuál es la dosificación de Clenpulmin?
+                            </div>
+                            <div class="message bot">
+                                La dosificación recomendada para CLENPULMIN® en equinos es de 2,5 ml por cada 100 kg de peso vivo (0,08 mg de Clenbuterol). Este producto debe administrarse por vía intravenosa.
+                            </div>
+                        </div>
+                        
+                        <div class="demo-features">
+                            <div class="feature">
+                                <span class="feature-icon">💊</span>
+                                <span>Información Técnica</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🎯</span>
+                                <span>Respuestas Precisas</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">👨‍⚕️</span>
+                                <span>Derivación Inteligente</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Cómo funciona?</h2>
+                <p>Tecnología de vanguardia para asistencia veterinaria</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-large">📚</div>
+                    <h3>Base de Conocimiento</h3>
+                    <p>71 fichas técnicas de productos Chinfield indexadas y actualizadas constantemente.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon-large">🤖</div>
+                    <h3>IA Avanzada</h3>
+                    <p>Sistema RAG con GPT-4 para respuestas contextuales precisas y profesionales.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon-large">⚡</div>
+                    <h3>Respuesta Instantánea</h3>
+                    <p>Obtén información técnica en menos de 3 segundos, disponible 24/7.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon-large">🎯</div>
+                    <h3>Derivación Inteligente</h3>
+                    <p>El sistema detecta consultas complejas y deriva a expertos automáticamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="productos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Productos Destacados</h2>
+                <p>Consulta sobre cualquiera de nuestros productos especializados</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/diazepam.jpg" alt="Diazepam Chinfield">
+                    </div>
+                    <h3>Diazepam Chinfield</h3>
+                    <p>Tranquilizante para equinos</p>
+                    <button class="btn-product" onclick="askAbout('Diazepam')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/flunifield.png" alt="Flunifield">
+                    </div>
+                    <h3>Flunifield</h3>
+                    <p>Antiinflamatorio no esteroideo</p>
+                    <button class="btn-product" onclick="askAbout('Flunifield')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/ade-selenio.jpg" alt="ADE + Selenio y Zinc">
+                    </div>
+                    <h3>ADE + Selenio y Zinc</h3>
+                    <p>Suplemento vitamínico mineral</p>
+                    <button class="btn-product" onclick="askAbout('ADE Selenio')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/lidocaina.jpg" alt="Lidocaína 2%">
+                    </div>
+                    <h3>Lidocaína 2% Chinfield</h3>
+                    <p>Anestésico local</p>
+                    <button class="btn-product" onclick="askAbout('Lidocaína')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/ketamina.jpg" alt="Ketamina 100">
+                    </div>
+                    <h3>Ketamina 100 Chinfield</h3>
+                    <p>Anestésico disociativo</p>
+                    <button class="btn-product" onclick="askAbout('Ketamina')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/hialuronato.jpg" alt="Hialuronato de Sodio">
+                    </div>
+                    <h3>Hialuronato de Sodio</h3>
+                    <p>Tratamiento articular</p>
+                    <button class="btn-product" onclick="askAbout('Hialuronato')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/fustex.jpg" alt="Fustex">
+                    </div>
+                    <h3>Fustex</h3>
+                    <p>Diurético para equinos</p>
+                    <button class="btn-product" onclick="askAbout('Fustex')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/artidexa.jpg" alt="Artidexa">
+                    </div>
+                    <h3>Artidexa Chinfield</h3>
+                    <p>Antiinflamatorio corticoide</p>
+                    <button class="btn-product" onclick="askAbout('Artidexa')">Consultar</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/products/aminoacidos.jpg" alt="Aminoácidos VIT">
+                    </div>
+                    <h3>Aminoácidos VIT</h3>
+                    <p>Complejo vitamínico</p>
+                    <button class="btn-product" onclick="askAbout('Aminoácidos')">Consultar</button>
+                </div>
+            </div>
+            
+            <div class="products-footer">
+                <p class="products-note">+ 62 productos más en nuestra base de datos</p>
+                <button class="btn-secondary" onclick="openChat()">Ver catálogo completo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para probar el asistente?</h2>
+                <p>Haz tu primera consulta ahora y experimenta la velocidad de la IA veterinaria</p>
+                <button class="btn-cta" onclick="openChat()">
+                    Iniciar Demo Gratuita →
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo-chinfield.png" alt="Chinfield" class="logo-img-footer">
+                    </div>
+                    <p class="footer-text">
+                        Laboratorio de Especialidades Veterinarias desde 1966
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. B. Ader 3205, Munro, Buenos Aires</p>
+                    <p>📧 info@chinfield.com</p>
+                    <p>🌐 <a href="https://chinfield.com" target="_blank">www.chinfield.com</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Demo Técnica</h4>
+                    <p>Esta es una demostración del sistema RAG de asistencia veterinaria inteligente.</p>
+                    <p class="footer-note">Desarrollado con ❤️ para Chinfield</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chinfield S.A. - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div id="chatWidget" class="chat-widget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar">🐴</div>
+                <div>
+                    <h3>Asistente Chinfield</h3>
+                    <span class="chat-status">● En línea • Demo</span>
+                </div>
+            </div>
+            <button class="chat-close" onclick="closeChat()">✕</button>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot welcome">
+                ¡Hola! Soy el asistente virtual de Chinfield. 👋<br/><br/>
+                Puedo ayudarte con información sobre nuestros productos veterinarios:
+                <ul>
+                    <li>Dosificaciones</li>
+                    <li>Indicaciones</li>
+                    <li>Contraindicaciones</li>
+                    <li>Vías de administración</li>
+                </ul>
+                ¿Qué necesitas consultar?
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                id="chatInput" 
+                class="chat-input" 
+                placeholder="Escribe tu consulta..."
+                onkeypress="handleKeyPress(event)"
+            />
+            <button class="chat-send" onclick="sendMessage()">
+                ➤
+            </button>
+        </div>
+    </div>
+
+    <!-- Chat Button -->
+    <button class="chat-button" id="chatButton" onclick="toggleChat()">
+        <span class="chat-button-icon">💬</span>
+        <span class="chat-button-badge">1</span>
+    </button>
+
+    <script src="widget.js"></script>
+</body>
+</html>

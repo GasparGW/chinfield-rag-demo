@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v21.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Página no encontrada &#060; Chinfield S.A.</title>
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:title" content="Página no encontrada &#060; Chinfield S.A." />
+	<meta property="og:site_name" content="Chinfield S.A." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://chinfield.com/#website","url":"https://chinfield.com/","name":"Chinfield S.A.","description":"Laboratorio de Especialidades Veterinarias.","publisher":{"@id":"https://chinfield.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://chinfield.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"Organization","@id":"https://chinfield.com/#organization","name":"Chinfield S.A.","url":"https://chinfield.com/","logo":{"@type":"ImageObject","inLanguage":"es","@id":"https://chinfield.com/#/schema/logo/image/","url":"https://chinfield.com/wp-content/uploads/2020/05/500.jpg","contentUrl":"https://chinfield.com/wp-content/uploads/2020/05/500.jpg","width":500,"height":500,"caption":"Chinfield S.A."},"image":{"@id":"https://chinfield.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/chinfield/","https://www.instagram.com/chinfieldsa/","https://ar.linkedin.com/company/chinfield","https://www.youtube.com/channel/UClpFFIoeeag64JvY5m-QvQw"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<script type='application/javascript'>console.log('PixelYourSite Free version 9.4.7.1');</script>
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/chinfield.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.7"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://chinfield.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.7' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<script type='text/javascript' src='https://chinfield.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://chinfield.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://chinfield.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.3.7' id='jquery-bind-first-js'></script>
+<script type='text/javascript' src='https://chinfield.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3' id='js-cookie-pys-js'></script>
+<script type='text/javascript' id='pys-js-extra'>
+/* <![CDATA[ */
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","name":"PageView","pixelIds":["425571526180980"],"eventID":"ec801bf6-267e-47ed-862a-e55198b2c06f","params":{"post_category":"Camellos, Caninos y felinos, Equinos","page_title":"Diazepam","post_type":"post","post_id":1262,"plugin":"PixelYourSite","user_role":"guest","event_url":"chinfield.com\/wp-content\/uploads\/2020\/01\/cropped-ico-chinfield-32x32.png"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":{"automatic_event_form":{"facebook":{"delay":0,"type":"dyn","name":"Form","pixelIds":["425571526180980"],"eventID":"285ed346-869e-4978-bfd3-9f85ce4fd39c","params":{"page_title":"Diazepam","post_type":"post","post_id":1262,"plugin":"PixelYourSite","user_role":"guest","event_url":"chinfield.com\/wp-content\/uploads\/2020\/01\/cropped-ico-chinfield-32x32.png"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_download":{"facebook":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"pixelIds":["425571526180980"],"eventID":"373654cb-c6c7-4e63-80aa-c6dc8a9ebb7d","params":{"page_title":"Diazepam","post_type":"post","post_id":1262,"plugin":"PixelYourSite","user_role":"guest","event_url":"chinfield.com\/wp-content\/uploads\/2020\/01\/cropped-ico-chinfield-32x32.png"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_comment":{"facebook":{"delay":0,"type":"dyn","name":"Comment","pixelIds":["425571526180980"],"eventID":"9dc190fc-1753-4174-8746-5caec059a657","params":{"page_title":"Diazepam","post_type":"post","post_id":1262,"plugin":"PixelYourSite","user_role":"guest","event_url":"chinfield.com\/wp-content\/uploads\/2020\/01\/cropped-ico-chinfield-32x32.png"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_scroll":{"facebook":{"delay":0,"type":"dyn","name":"PageScroll","scroll_percent":30,"pixelIds":["425571526180980"],"eventID":"a2c38074-8508-43bf-ad79-256a868361ff","params":{"page_title":"Diazepam","post_type":"post","post_id":1262,"plugin":"PixelYourSite","user_role":"guest","event_url":"chinfield.com\/wp-content\/uploads\/2020\/01\/cropped-ico-chinfield-32x32.png"},"e_id":"automatic_event_scroll","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_time_on_page":{"facebook":{"delay":0,"type":"dyn","name":"TimeOnPage","time_on_page":30,"pixelIds":["425571526180980"],"eventID":"bba37088-32e6-4e6b-a3c2-559dba7b23d9","params":{"page_title":"Diazepam","post_type":"post","post_id":1262,"plugin":"PixelYourSite","user_role":"guest","event_url":"chinfield.com\/wp-content\/uploads\/2020\/01\/cropped-ico-chinfield-32x32.png"},"e_id":"automatic_event_time_on_page","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["425571526180980"],"advancedMatching":[],"advancedMatchingEnabled":true,"removeMetadata":false,"contentParams":{"post_type":"post","post_id":1262,"content_name":"Diazepam","tags":"","categories":"Camellos, Caninos y felinos, Equinos"},"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":null},"debug":"","siteUrl":"https:\/\/chinfield.com","ajaxUrl":"https:\/\/chinfield.com\/wp-admin\/admin-ajax.php","ajax_event":"a386f586c6","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","send_external_id":"1","external_id_expire":"180","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false},"cookie":{"disabled_all_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"woo":{"enabled":false},"edd":{"enabled":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://chinfield.com/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=9.4.7.1' id='pys-js'></script>
+<link rel="https://api.w.org/" href="https://chinfield.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chinfield.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.7" />
+<meta name="generator" content="WPML ver:4.3.6 stt:1,2;" />
+<meta name="facebook-domain-verification" content="nmwvkov7i3zikywleg3nh2p0bmdzqc" />		<style type="text/css" id="wp-custom-css">
+			.subscription-form-feedback{
+	height:150px !important;
+	font-size:20px !important
+}
+
+nav ul li.menu-item-has-children > ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px 0;
+    list-style: none;
+    z-index: 999;
+}
+
+nav ul li.menu-item-has-children:hover > ul.sub-menu {
+    display: block;
+}
+
+nav ul li.menu-item-has-children {
+    position: relative;
+}
+
+nav ul.sub-menu li {
+    padding: 5px 20px;
+    white-space: nowrap;
+		margin-left: 0px !important;
+}
+
+.slicknav_arrow {
+	display: none;
+}
+
+.slicknav_nav .slicknav_row:hover { 
+	background: none !important;
+}
+
+#contact .inner-wrapper { 
+	justify-content: center !important;
+}
+
+@media screen and (max-width: 991px) {
+    nav ul li.menu-item-has-children > ul.sub-menu {
+        position: static !important;
+        background-color: transparent !important;
+        padding: 0 !important;
+        display: none;
+    }
+	.slicknav_nav li {
+			margin-bottom: 0px !important;
+	}
+}		</style>
+		 
+<head>
+
+    <title>Chinfield</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://chinfield.com/wp-content/themes/chinfield/style.css" type="text/css" media="screen" />
+    <link rel="icon" type="image/png" href="https://chinfield.com/wp-content/themes/chinfield/img/favicon.jpg" /> 
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164927706-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164927706-1');
+    </script>
+    
+</head>
+
+<body class="error404">
+        <div id="main-container">
+        <header id="header">
+            <div class="inner-wrapper">
+                <a href="https://chinfield.com/" id="logo">
+                    <img src="https://chinfield.com/wp-content/themes/chinfield/img/logo.png" alt="">
+                </a>
+                <nav id="nav">                     
+                    <ul>                        
+                        <li  >
+                            <a href="https://chinfield.com/acerca-de-chinfield"> Acerca de</a>
+                        </li>
+                        <li  >
+                            <a href="https://chinfield.com/vademecum"> Vademecum</a>
+                        </li>
+						<li class="menu-item-has-children">
+							<a href="javascript:void(0)"> 
+								Folletos 
+								<i class="fa-solid fa-chevron-down"></i>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="https://chinfield.com/wp-content/themes/chinfield/pdf/CHINFIELD_AminoacidosVit.pdf" target="_blank">
+										Aminoácidos VIT									</a>
+								</li>
+								<li>
+									<a href="https://chinfield.com/wp-content/themes/chinfield/pdf/CHINFIELD_AminosucNF.pdf" target="_blank">
+										Aminosuc NF									</a>
+								</li>
+								<li>
+									<a href="https://chinfield.com/wp-content/themes/chinfield/pdf/CHINFIELD_HepatofieldNF.pdf" target="_blank">
+										Hepatofield NF									</a>
+								</li>
+								<li>
+									<a href="https://chinfield.com/wp-content/themes/chinfield/pdf/CHINFIELD_MineralizacionParaElRodeoBovino.pdf" target="_blank">
+										Mineralización									</a>
+								</li>
+							</ul>
+						</li>
+                        <li  >
+                            <a href="https://chinfield.com/#contact"> Contacto</a>
+                        </li>
+                        <li  >
+                            <a href="https://chinfield.com/en">
+                                English Version                            </a>                            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<div class="content" id="home">
+    <div id="home-slider">
+        
+                    
+
+            
+                <div class="slide" style="background-image: url(https://chinfield.com/wp-content/uploads/2020/02/slider-5.jpg);">
+                    <div class="home-slide-content">
+                        <h2></h2>
+                        <h3></h3>
+                        <p></p>
+                                            </div>
+                </div>
+
+            
+                <div class="slide" style="background-image: url(https://chinfield.com/wp-content/uploads/2020/02/slider-4.jpg);">
+                    <div class="home-slide-content">
+                        <h2></h2>
+                        <h3></h3>
+                        <p></p>
+                                            </div>
+                </div>
+
+            
+                <div class="slide" style="background-image: url(https://chinfield.com/wp-content/uploads/2020/02/slider-6.jpg);">
+                    <div class="home-slide-content">
+                        <h2></h2>
+                        <h3></h3>
+                        <p></p>
+                                            </div>
+                </div>
+
+                        
+
+                
+        
+    </div>
+    <div id="home-about">
+        <div></div>
+        <div>
+            <div id="home-about-content">
+                <h4>Acerca de nosotros</h4>
+                <p>Desde nuestros comienzos en 1966, el respeto por la <strong>CALIDAD</strong> ha sido el concepto rector de nuestras actividades, lo que se ha visto claramente reflejado en la rápida aceptación que las Especialidades Veterinarias CHINFIELD, han obtenido en el país y en el exterior.                
+                </p>
+                <p>
+                    Este principio fundacional, nos ha permitido desarrollar una amplia línea de productos y específicos, que gozan hoy de un bien ganado prestigio entre los criadores y profesionales que atienden a equinos de alta competición y de trabajo, siendo muchos de estos productos verdaderos “clásicos” en la clínica diaria con estos animales, en la Argentina y en muchos otros países de América, África y Medio Oriente.                </p>
+                <a href="https://chinfield.com/acerca-de-chinfield">Ver más</a>
+            </div>
+        </div>
+    </div>
+    <div id="home-products">
+        <h4>Productos Destacados</h4>
+        <div class="inner-wrapper">
+            <div id="home-products-carousel">
+
+                         
+            
+                <!-- the loop -->
+                                                            <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2025/05/Diazepam_380x380-2.jpg">
+                            <h5>Diazepam</h5>
+                            <a href="https://chinfield.com/diazepam/">Ver más</a>
+                        </div>
+                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/07/flini.png">
+                            <h5>Flunifield</h5>
+                            <a href="https://chinfield.com/flunifield/">Ver más</a>
+                        </div>
+                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/YodacalcioMG_Destacado-1.jpg">
+                            <h5>Yodacalcio MG</h5>
+                            <a href="https://chinfield.com/yodacalcio-mg-2/">Ver más</a>
+                        </div>
+                                                                                                                    <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/YodacalcioB12_Destacado-1.jpg">
+                            <h5>Yodacalcio B12 D</h5>
+                            <a href="https://chinfield.com/yodacalcio-b12-d/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Lidocaina_Destacado.jpg">
+                            <h5>Lidocaina 2% Chinfield</h5>
+                            <a href="https://chinfield.com/lidocaina-2-chinfield/">Ver más</a>
+                        </div>
+                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Ketamina100x50_Destacado.jpg">
+                            <h5>Ketamina 100 Chinfield</h5>
+                            <a href="https://chinfield.com/ketamina-50-chinfield-2/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Hialuronato_Destacado.jpg">
+                            <h5>Hialuronato de Sodio Chinfield</h5>
+                            <a href="https://chinfield.com/hialuronato-de-sodio-chinfield/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                                                    <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Fustex_380x380.jpg">
+                            <h5>Fustex</h5>
+                            <a href="https://chinfield.com/fustex-2/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Esele_Destacado.jpg">
+                            <h5>Eselé</h5>
+                            <a href="https://chinfield.com/esele/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Borogluconato_Destacado-1.jpg">
+                            <h5>Borogluconato de Calcio 50% Chinfield</h5>
+                            <a href="https://chinfield.com/borogluconato-de-calcio-50-chinfield/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                                                    <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Artidexa_Destacado.jpg">
+                            <h5>Artidexa Chinfield</h5>
+                            <a href="https://chinfield.com/artidexa-chinfield/">Ver más</a>
+                        </div>
+                                                                                                                                                                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/AmoniacidosVIT_Destacado.jpg">
+                            <h5>Aminoacidos Vit</h5>
+                            <a href="https://chinfield.com/aminoacidos-vit-2/">Ver más</a>
+                        </div>
+                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/03/Ade_Selenio_Zinc_Destacado.jpg">
+                            <h5>A D E + Selenio y Zinc Chinfield</h5>
+                            <a href="https://chinfield.com/a-d-e-selenio-y-zinc-chinfield/">Ver más</a>
+                        </div>
+                                                                                <div class="home-products-item">
+                            <img alt="" src="https://chinfield.com/wp-content/uploads/2020/01/Producto_3_PCto_Destacado.jpg">
+                            <h5>Hepatofield</h5>
+                            <a href="https://chinfield.com/hepatofield/">Ver más</a>
+                        </div>
+                                                    <!-- end of the loop -->
+
+                             
+                      
+        
+                
+            </div>
+        </div>
+    </div>
+</div>
+ <div id="contact">
+            <div class="inner-wrapper">
+                <div class="contact-col">
+                    <div class="contact-element">
+                        <h5>Información de contacto</h5>
+                        <span><img class="contact-ico" src="https://chinfield.com/wp-content/themes/chinfield/img/ico-phone.png" alt="">TEL/FAX : 00-54-11 4762-5163</span>
+                        <a href="mailto:info@chinfield.com" id="contact-mailto"><img class="contact-ico" src="https://chinfield.com/wp-content/themes/chinfield/img/ico-mail.png" alt=""> info@chinfield.com</a>
+                    </div>
+                    <div class="contact-element" id="contact-social">
+                        <h5>Síganos</h5>
+                        <a href="https://www.facebook.com/chinfield/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UClpFFIoeeag64JvY5m-QvQw" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://ar.linkedin.com/company/chinfield" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/chinfieldsa/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <div class="contact-element">
+                        <h5>Dónde estamos</h5>
+                        <span><img class="contact-ico" src="https://chinfield.com/wp-content/themes/chinfield/img/ico-marker.png" alt=""> Av. Ader 3205, (1605) Munro <br>
+                            Buenos Aires, Argentina</span>
+                        <div id="contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13146.993754984638!2d-58.5420291!3d-34.5346009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53ffb5a97a244af8!2sChinfield%20s.a.!5e0!3m2!1ses-419!2sar!4v1576418670519!5m2!1ses-419!2sar" width="100%" height="187" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <footer id="footer">
+            <div class="inner-wrapper col">
+                <div>
+                    <img src="https://chinfield.com/wp-content/themes/chinfield/img/arg.png" alt="">
+                    <img src="https://chinfield.com/wp-content/themes/chinfield/img/senasa.png" alt="">
+                </div>
+                <small>2020 © Copyright Chinfield. All Rights Reserved</small>
+            </div>
+        </footer>
+    </div>
+    <noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=425571526180980&ev=PageView&noscript=1&cd%5Bpost_category%5D=Camellos%2C+Caninos+y+felinos%2C+Equinos&cd%5Bpage_title%5D=Diazepam&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=1262&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chinfield.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fcropped-ico-chinfield-32x32.png" alt=""></noscript>
+<script type='text/javascript' src='https://chinfield.com/wp-content/themes/chinfield/js/libs.js?ver=6.3.7' id='chinfield-libs-js'></script>
+<script type='text/javascript' src='https://chinfield.com/wp-content/themes/chinfield/js/functions.js?ver=6.3.7' id='chinfield-functions-js'></script>
+</body>
+
+</html>

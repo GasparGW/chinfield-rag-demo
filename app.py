@@ -9,6 +9,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from typing import Optional
 import os
+import traceback
 
 from rag_system_api import RAGSystemAPI
 from config.settings import ConfigPresets
@@ -966,7 +967,8 @@ async def chat(request: ChatRequest):
         rag = get_rag()
         
         # Ejecutar query
-        result = rag.query(request.message, verbose=False)
+        result = rag.query(request.message, verbose=True)
+        print(f"🔍 RAG Result: {result}")
         
         if not result['success']:
             raise HTTPException(status_code=500, detail="Error generando respuesta")
@@ -989,6 +991,7 @@ async def chat(request: ChatRequest):
         
     except Exception as e:
         print(f"❌ Error en /api/chat: {e}")
+        traceback.print_exc()
         
         # Respuesta de error con derivación a humano
         error_answer = (
