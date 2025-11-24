@@ -72,7 +72,7 @@ class ConfigPresets:
             chroma_db_path="./models/chroma_db",
             embedding_model="all-MiniLM-L6-v2",  # Modelo ligero
             default_temperature=0.7,
-            default_max_tokens=500,
-            default_k=3,
-            confidence_threshold=0.65
+            default_max_tokens=700,
+            default_k=6,
+            confidence_threshold=0.45
         )
