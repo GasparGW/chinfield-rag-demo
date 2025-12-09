@@ -255,25 +255,63 @@
         }
 
         /* Chat Button */
-        .chat-button {
+        .chat-button-container {
             position: fixed;
             bottom: 24px;
             right: 24px;
-            width: 64px;
-            height: 64px;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .chat-tooltip {
+            background: #ffffff;
+            color: #111827;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+
+        .chat-tooltip.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .chat-tooltip::after {
+            content: '';
+            position: absolute;
+            right: -6px;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 6px solid transparent;
+            border-left-color: #ffffff;
+        }
+
+        .chat-button {
+            width: 72px;
+            height: 72px;
             background: linear-gradient(135deg, #C8102E 0%, #A00D24 100%);
             border: none;
             border-radius: 50%;
             color: #ffffff;
             cursor: pointer;
             box-shadow: 0 8px 24px rgba(200, 16, 46, 0.4);
-            z-index: 9999;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 28px;
+            font-size: 32px;
             -webkit-tap-highlight-color: transparent;
             touch-action: manipulation;
+            flex-shrink: 0;
+            position: relative;
         }
 
         .chat-button:active {
@@ -378,6 +416,12 @@
             .chat-button:hover {
                 transform: scale(1.1);
             }
+
+            .chat-button {
+                width: 68px;
+                height: 68px;
+                font-size: 30px;
+            }
         }
     </style>
 </head>
@@ -433,11 +477,14 @@
         </div>
     </div>
 
-    <!-- Chat Button -->
-    <button class="chat-button" id="chatButton">
-        💬
-        <span class="chat-button-badge">!</span>
-    </button>
+    <!-- Chat Button with Tooltip -->
+    <div class="chat-button-container" id="chatButtonContainer">
+        <div class="chat-tooltip" id="chatTooltip">¿Consultas técnicas?</div>
+        <button class="chat-button" id="chatButton">
+            💬
+            <span class="chat-button-badge">!</span>
+        </button>
+    </div>
 
     <script>
         // Configuration
@@ -449,11 +496,20 @@
 
         // DOM Elements
         const chatWidget = document.getElementById('chatWidget');
+        const chatButtonContainer = document.getElementById('chatButtonContainer');
         const chatButton = document.getElementById('chatButton');
+        const chatTooltip = document.getElementById('chatTooltip');
         const chatClose = document.getElementById('chatClose');
         const chatInput = document.getElementById('chatInput');
         const chatSend = document.getElementById('chatSend');
         const chatMessages = document.getElementById('chatMessages');
+
+        // Mostrar tooltip después de 3 segundos
+        setTimeout(() => {
+            if (!chatOpen) {
+                chatTooltip.classList.add('visible');
+            }
+        }, 3000);
 
         // Event Listeners - Touch compatible
         chatButton.addEventListener('click', toggleChat);
@@ -485,7 +541,8 @@
             if (chatOpen) return;
             chatOpen = true;
             chatWidget.classList.add('open');
-            chatButton.style.display = 'none';
+            chatButtonContainer.style.display = 'none';
+            chatTooltip.classList.remove('visible');
             
             setTimeout(() => {
                 chatInput.focus();
@@ -502,7 +559,7 @@
             chatWidget.classList.remove('open');
             
             setTimeout(() => {
-                chatButton.style.display = 'flex';
+                chatButtonContainer.style.display = 'flex';
             }, 300);
         }
 
