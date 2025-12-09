@@ -266,18 +266,22 @@
         }
 
         .chat-tooltip {
-            background: #ffffff;
-            color: #111827;
-            padding: 12px 16px;
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            color: #1d1d1f;
+            padding: 10px 16px;
+            border-radius: 20px;
             font-size: 14px;
             font-weight: 500;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08),
+                        0 8px 24px rgba(0, 0, 0, 0.1);
             white-space: nowrap;
             opacity: 0;
             transform: translateX(10px);
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
             pointer-events: none;
+            letter-spacing: -0.01em;
         }
 
         .chat-tooltip.visible {
@@ -298,20 +302,65 @@
         .chat-button {
             width: 72px;
             height: 72px;
-            background: linear-gradient(135deg, #C8102E 0%, #A00D24 100%);
+            background: #ffffff;
             border: none;
             border-radius: 50%;
-            color: #ffffff;
             cursor: pointer;
-            box-shadow: 0 8px 24px rgba(200, 16, 46, 0.4);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 
+                        0 8px 24px rgba(0, 0, 0, 0.12);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 32px;
             -webkit-tap-highlight-color: transparent;
             touch-action: manipulation;
             flex-shrink: 0;
             position: relative;
+            transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+            overflow: hidden;
+            padding: 12px;
+        }
+
+        .chat-button:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1), 
+                        0 12px 32px rgba(0, 0, 0, 0.15);
+        }
+
+        .chat-button:active {
+            transform: scale(0.98);
+            transition: all 0.1s ease;
+        }
+
+        /* Animación suave de breathing */
+        @keyframes breathe {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        .chat-button:hover .chinfield-logo {
+            animation: breathe 2s ease-in-out infinite;
+        }
+
+        .chinfield-logo {
+            width: 48px;
+            height: 48px;
+        }
+
+        .chat-button-badge {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background: #005DAA;
+            color: #ffffff;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            font-size: 11px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
         }
 
         .chat-button:active {
@@ -414,13 +463,18 @@
             }
 
             .chat-button:hover {
-                transform: scale(1.1);
+                transform: scale(1.08);
             }
 
             .chat-button {
                 width: 68px;
                 height: 68px;
-                font-size: 30px;
+                padding: 10px;
+            }
+
+            .chinfield-logo {
+                width: 44px;
+                height: 44px;
             }
         }
     </style>
@@ -479,10 +533,35 @@
 
     <!-- Chat Button with Tooltip -->
     <div class="chat-button-container" id="chatButtonContainer">
-        <div class="chat-tooltip" id="chatTooltip">¿Consultas técnicas?</div>
+        <div class="chat-tooltip" id="chatTooltip">¿En qué puedo ayudarte?</div>
         <button class="chat-button" id="chatButton">
-            💬
-            <span class="chat-button-badge">!</span>
+            <!-- Ícono estilo Apple - minimalista y elegante -->
+            <svg class="chinfield-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- Círculo con gradiente suave -->
+                <defs>
+                    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#D4243B"/>
+                        <stop offset="100%" style="stop-color:#B01428"/>
+                    </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="50" fill="url(#redGradient)"/>
+                <!-- Burbuja de chat elegante con curvas suaves -->
+                <path d="M30 35 
+                         C30 31, 33 28, 37 28
+                         L63 28 
+                         C67 28, 70 31, 70 35
+                         L70 55
+                         C70 59, 67 62, 63 62
+                         L42 62
+                         L34 72
+                         L34 62
+                         L37 62
+                         C33 62, 30 59, 30 55
+                         Z" 
+                      fill="#ffffff"
+                      opacity="0.95"/>
+            </svg>
+            <span class="chat-button-badge">1</span>
         </button>
     </div>
 
