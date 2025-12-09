@@ -572,15 +572,20 @@ body {
     left: 0;
     top: 0;
     width: 100%;
+    width: 100vw;
     height: 100vh;
+    height: 100dvh; /* iOS Safari fix - dynamic viewport height */
     max-height: none;
     background: var(--white);
-    border-radius: 0;
+    border-radius: 0 !important;
     box-shadow: none;
     display: none;
     flex-direction: column;
-    z-index: 1000;
+    z-index: 9999;
     animation: slideUpFull 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    /* iOS Safari fixes */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
 }
 
 .chat-widget.open {
@@ -677,6 +682,7 @@ body {
     gap: 12px;
     -webkit-overflow-scrolling: touch;
     background: var(--white);
+    min-height: 0; /* Fix flexbox overflow */
 }
 
 /* Message Styles */
@@ -742,7 +748,8 @@ body {
 .chat-input-container {
     display: flex;
     gap: 8px;
-    padding: 12px 16px 20px 16px;
+    padding: 12px 16px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 8px)); /* iOS safe area */
     border-top: 1px solid var(--gray-200);
     flex-shrink: 0;
     background: var(--white);
