@@ -735,7 +735,7 @@
             
             chatInput.value = '';
             chatSend.disabled = true;
-            addMessage(message, 'user');
+            const userMessage = addMessage(message, 'user');
             
             showTypingIndicator();
             isWaitingResponse = true;
@@ -756,7 +756,7 @@
                 const data = await response.json();
                 
                 hideTypingIndicator();
-                addMessage(data.answer, 'bot');
+                addMessage(data.answer, 'bot', userMessage);
                 
                 if (data.needs_human) {
                     addHandoffMessage();
@@ -767,7 +767,8 @@
                 hideTypingIndicator();
                 addMessage(
                     'Disculpá, hubo un problema al procesar tu consulta. Por favor contactá a info@chinfield.com',
-                    'bot'
+                    'bot',
+                    userMessage
                 );
             } finally {
                 isWaitingResponse = false;
@@ -795,8 +796,8 @@
             if (indicator) indicator.remove();
         }
 
-        // Add message - scroll al inicio del mensaje nuevo
-        function addMessage(text, sender) {
+        // Add message - scroll al mensaje del usuario para ver respuesta desde arriba
+        function addMessage(text, sender, scrollToElement = null) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${sender}`;
             
@@ -808,10 +809,19 @@
             
             chatMessages.appendChild(messageDiv);
             
-            // Scroll al inicio del nuevo mensaje (no al final)
-            requestAnimationFrame(() => {
-                messageDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            });
+            // Esperar a que se renderice el mensaje, luego scroll
+            setTimeout(() => {
+                if (sender === 'bot' && scrollToElement) {
+                    // Scroll al mensaje del usuario para ver pregunta + respuesta
+                    const targetTop = scrollToElement.offsetTop - 16;
+                    chatMessages.scrollTop = targetTop;
+                } else {
+                    // Scroll al final para mensajes del usuario
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
+            }, 50);
+            
+            return messageDiv;
         }
 
         // Scroll to bottom (para typing indicator)
@@ -832,10 +842,7 @@
                 📞 +54 11 4762-5163
             `;
             chatMessages.appendChild(handoffDiv);
-            
-            requestAnimationFrame(() => {
-                handoffDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            });
+            scrollToBottom();
         }
 
         console.log('✅ Chinfield Chat Widget v4.0 - Apple Style');
