@@ -89,14 +89,14 @@ function setupEventListeners() {
     
     // Toggle chat on button click
     chatButton?.addEventListener('click', toggleChat);
-    chatButton?.addEventListener('touchend', (e) => {
+    chatButton?.addEventListener('pointerdown', (e) => {
         e.preventDefault();
         toggleChat();
     });
     
     // Close chat
     chatClose?.addEventListener('click', closeChat);
-    chatClose?.addEventListener('touchend', (e) => {
+    chatClose?.addEventListener('pointerdown', (e) => {
         e.preventDefault();
         closeChat();
     });
@@ -104,7 +104,7 @@ function setupEventListeners() {
     // Send message on Enter (desktop) or button click
     chatInput?.addEventListener('keypress', handleKeyPress);
     chatSend?.addEventListener('click', sendMessage);
-    chatSend?.addEventListener('touchend', (e) => {
+    chatSend?.addEventListener('pointerdown', (e) => {
         e.preventDefault();
         sendMessage();
     });
