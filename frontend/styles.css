@@ -655,6 +655,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    /* iOS Safari touch fixes */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .chat-close:active {
@@ -782,13 +787,18 @@ body {
     flex-shrink: 0;
     -webkit-appearance: none;
     appearance: none;
+    /* iOS Safari touch fixes */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .chat-send:active {
     background: var(--primary-green-dark);
 }
 
-/* Chat Button - Mobile */
+/* Chat Button - Mobile (iOS Safari compatible) */
 .chat-button {
     position: fixed;
     bottom: 24px;
@@ -806,6 +816,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* iOS Safari touch fixes */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .chat-widget.open ~ .chat-button {

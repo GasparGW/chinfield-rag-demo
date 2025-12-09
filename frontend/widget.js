@@ -1,16 +1,18 @@
 /**
  * Chinfield Chat Widget - Mobile First Responsive
  * Professional implementation with viewport detection
+ * v2.1 - iOS Safari touch fix
  */
 
-// =========================================================
+// ============================================================
 // CONFIGURATION
 // ============================================================
 
 const CONFIG = {
-    API_URL: process.env.NODE_ENV === 'production' 
-        ? 'https://web-production-d0c48.up.railway.app'  // Railway URL en producción
-        : 'http://localhost:8000',      // Local development
+    // Fix: usar window.location en lugar de process.env (no existe en browser)
+    API_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+        ? 'http://localhost:8000'
+        : 'https://web-production-d0c48.up.railway.app',
     
     MOBILE_BREAKPOINT: 768,
     ANIMATION_DURATION: 400,
@@ -34,7 +36,8 @@ const STATE = {
 // ============================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Chinfield Chat Widget v2.0 initialized');
+    console.log('🚀 Chinfield Chat Widget v2.1 initialized');
+    console.log(`📡 API URL: ${CONFIG.API_URL}`);
     
     // Verificar elementos del DOM
     if (!verifyDOMElements()) {
@@ -78,7 +81,7 @@ function verifyDOMElements() {
 }
 
 // ============================================================
-// EVENT LISTENERS - SETUP
+// EVENT LISTENERS - SETUP (iOS Safari compatible)
 // ============================================================
 
 function setupEventListeners() {
@@ -87,27 +90,25 @@ function setupEventListeners() {
     const chatInput = document.getElementById('chatInput');
     const chatSend = document.getElementById('chatSend');
     
-    // Toggle chat on button click
-    chatButton?.addEventListener('click', toggleChat);
-    chatButton?.addEventListener('pointerdown', (e) => {
-        e.preventDefault();
-        toggleChat();
-    });
+    // Toggle chat - usar touchend para iOS Safari
+    if (chatButton) {
+        chatButton.addEventListener('touchend', handleButtonTouch, { passive: false });
+        chatButton.addEventListener('click', handleButtonClick);
+    }
     
     // Close chat
-    chatClose?.addEventListener('click', closeChat);
-    chatClose?.addEventListener('pointerdown', (e) => {
-        e.preventDefault();
-        closeChat();
-    });
+    if (chatClose) {
+        chatClose.addEventListener('touchend', handleCloseTouch, { passive: false });
+        chatClose.addEventListener('click', closeChat);
+    }
     
-    // Send message on Enter (desktop) or button click
+    // Send message
     chatInput?.addEventListener('keypress', handleKeyPress);
-    chatSend?.addEventListener('click', sendMessage);
-    chatSend?.addEventListener('pointerdown', (e) => {
-        e.preventDefault();
-        sendMessage();
-    });
+    
+    if (chatSend) {
+        chatSend.addEventListener('touchend', handleSendTouch, { passive: false });
+        chatSend.addEventListener('click', sendMessage);
+    }
     
     // Prevent zoom on input focus (mobile)
     chatInput?.addEventListener('focus', () => {
@@ -117,13 +118,36 @@ function setupEventListeners() {
     });
 }
 
+// Touch handlers para iOS Safari
+function handleButtonTouch(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleChat();
+}
+
+function handleButtonClick(e) {
+    // Solo ejecutar si no fue un touch event
+    if (e.pointerType === 'touch') return;
+    toggleChat();
+}
+
+function handleCloseTouch(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    closeChat();
+}
+
+function handleSendTouch(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    sendMessage();
+}
+
 // ============================================================
 // RESPONSIVE LISTENERS
 // ============================================================
 
 function setupResponsiveListeners() {
-    let resizeTimeout;
-    
     window.addEventListener('resize', debounce(() => {
         const wasMobile = STATE.isMobileView;
         STATE.isMobileView = window.innerWidth < CONFIG.MOBILE_BREAKPOINT;
@@ -143,7 +167,6 @@ function setupResponsiveListeners() {
 
 function updateWidgetForViewport() {
     const widget = document.getElementById('chatWidget');
-    const chatMessages = document.getElementById('chatMessages');
     
     if (!widget) return;
     
@@ -166,6 +189,7 @@ function updateWidgetForViewport() {
 // ============================================================
 
 function toggleChat() {
+    console.log('🔄 Toggle chat called, current state:', STATE.chatOpen);
     STATE.chatOpen ? closeChat() : openChat();
 }
 
@@ -255,8 +279,7 @@ async function sendMessage() {
             body: JSON.stringify({
                 message: message,
                 session_id: STATE.sessionId
-            }),
-            timeout: 30000
+            })
         });
         
         if (!response.ok) {
@@ -270,11 +293,6 @@ async function sendMessage() {
         
         // Add bot response
         addMessage(data.answer, 'bot');
-        
-        // Add handoff info if needed
-        if (data.needs_human) {
-            // El mensaje ya incluye el handoff, no agregar otro
-        }
         
         // Log success
         console.log(`✅ Response received (docs: ${data.num_docs})`);
